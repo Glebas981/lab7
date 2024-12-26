@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Виды спорта</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .search-box {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .search-box select {
+            width: 70%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .search-box button {
+            padding: 10px;
+            border: none;
+            background: #007BFF;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 5px;
+        }
+        .item {
+            background: #f0e68c;
+            margin: 10px 0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .item h3 {
+            margin: 0 0 10px;
+        }
+        .item button {
+            background: #28A745;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .side-panel {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .side-panel div {
+            width: 48%;
+            background: #e7e7e7;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .foot {
+          columns: 2;
+        }
+        .photo {
+            width: 250px;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Виды спорта</h1>
+    
+    <div class="search-box">
+        <select>
+            <option>Выберите ваш вид спорта</option>
+            <option>Футбол</option>
+            <option>Волейбол</option>
+            <option>Баскетбол</option>
+        </select>
+        <button>Фильтровать</button>
+    </div>
+    <div class="item">
+        <table><tr>
+            <td><img src="Футбол.jpg" class="photo"></td>
+        <td><h3>Футбол</h3>
+        <p>Командный вид спорта, в котором целью является забить мяч в ворота соперника ногами или другими частями тела большее количество раз, чем команда соперника. В настоящее время самый популярный и массовый вид спорта в мире.</p>
+        <button><a href="https://ru.wikipedia.org/wiki/%D0%A4%D1%83%D1%82%D0%B1%D0%BE%D0%BB">Читать</a></button></td></tr></table>
+    </div>
+    <div class="item">
+        <table><tr>
+        <td><img src="Волейбол.jpg" class="photo"></td>
+          <td><h3>Волейбол</h3>
+        <p>Волейбо́л (англ. volleyball от volley — «удар с лёту» и ball — «мяч») — вид спорта, командная спортивная игра, в процессе которой две команды соревнуются на специальной площадке, разделённой сеткой, стремясь направить мяч на сторону соперника таким образом, чтобы он приземлился на площадке противника (добить до пола), либо чтобы игрок защищающейся команды допустил ошибку. При этом для организации атаки игрокам одной команды разрешается не более трёх касаний мяча подряд (в дополнение к касанию на блоке).</p>
+        <button><a href="https://ru.wikipedia.org/wiki/%D0%92%D0%BE%D0%BB%D0%B5%D0%B9%D0%B1%D0%BE%D0%BB">Читать</a></button></td></tr></table>
+    </div>
+    <div class="item">
+        <table><tr>
+            <td><img src="Баскетбол.jpg" class="photo"></td>
+        <td><h3>Баскетбол</h3>
+        <p>Баскетбо́л (англ. basket «корзина» + ball «мяч») — спортивная командная игра с мячом, в которой мяч забрасывают руками в кольцо соперника. В баскетбол играют две команды, каждая из которых состоит из пяти полевых игроков (замены не ограничены). Цель каждой команды — забросить мяч в кольцо с сеткой (корзину) соперника и помешать другой команде завладеть мячом и забросить его в свою корзину. Корзина находится на высоте 3,05 м от паркета (10 футов). За мяч, заброшенный с ближней и средней дистанций, засчитывается два очка, с дальней (из-за трёхочковой линии) — три очка; штрафной бросок оценивается в одно очко. Стандартный размер баскетбольной площадки — 28 м в длину и 15 м — в ширину. Баскетбол — один из самых популярных видов спорта в мире[1].</p>
+        <button><a href="https://ru.wikipedia.org/wiki/%D0%91%D0%B0%D1%81%D0%BA%D0%B5%D1%82%D0%B1%D0%BE%D0%BB">Читать</a></button></td></tr></table>
+    </div>
+<hr><div class="foot">
+  <p>Спорт (от англ. sport — сокращение от первоначального старофранц. disport — «развлечение, забава»[1]) — организованная по определённым правилам деятельность людей (спортсме́нов), состоящая в сопоставлении их физических или интеллектуальных способностей. Спорт представляет собой специфический род физической (или интеллектуальной) активности, совершаемой с целью соревнования, а также целенаправленной подготовки (СФП) к ним путём тренировки. В сочетании с отдыхом, стремлением к постепенному улучшению физического здоровья, повышению уровня интеллекта, получению морального удовлетворения, к совершенству, улучшению личных, групповых и абсолютных рекордов, славе, улучшению собственных физических возможностей и навыков спорт предназначен для совершенствования физико-психических характеристик человека.</p>
+</div>
+
+</div>
+
+</body>
+</html>
